@@ -1,0 +1,65 @@
+# ----------------------
+# Ignore everything
+# ----------------------
+/*
+
+# ----------------------
+# Add Manifest
+# ----------------------
+!/manifest
+
+# ----------------------
+# Add Gitignore
+# ----------------------
+!.gitignore
+
+# ----------------------
+# Add Docs
+# ----------------------
+!/Docs
+
+# ----------------------
+# Bin
+# ----------------------
+!/bin
+/bin/Debug/*
+/bin/Release/*
+/bin/Release/*.pdb
+/bin/Release/*.exe
+/bin/Release/*.manifest
+/bin/Release/*.application
+/bin/Release/*.dll
+/bin/Release/*exe.config
+/bin/Release/app.publish/*
+!/bin/Release/app.publish/
+!/bin/Release/app.publish/*.exe
+/bin/Release/app.publish/setup.exe
+/bin/Release/.vshistory*
+
+# Allow: Classes
+!/Classes*
+/Classes/.vshistory*
+
+# Allow: Controls
+!/Controls*
+/Controls/.vshistory*
+
+# Allow: Forms
+!/Forms*
+/Forms/.vshistory*
+
+# Allow: Materials
+!/Materials*
+/Materials/.vshistory*
+
+# Allow: Properties
+!/Properties*
+/Properties/.vshistory*
+
+# Allow: Exts
+!*.csproj
+!*.sln
+!*.cs
+!*.resx
+!*.ico
+!*.md
